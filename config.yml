@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Prof. Name
+baseURL: "https://adonze.github.io/" 
+title: Alexandre Donzé
 paginate: 20
 theme: PaperMod
 
@@ -11,26 +11,19 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
+        - name: Publications
           url: papers/
           weight: 1
-        - name: Courses
-          url: courses/
-          weight: 2
-        - name: Data
+        - name: Software
           url: data/
-          weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
+          weight: 2 
 
 params:
-    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
-consequat."
-    author: Name
+    description: "I am a researcher made (sort of) entrepreneur at Decyphir SAS."
+    author: Alexandre Donzé
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
@@ -50,45 +43,33 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Prof. Namely Name
-          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+          title: Alexandre Donzé, PhD
+          subtitle: "I am a researcher made (sort of) entrepreneur at [Decyphir SAS](https://decyphir.com). I study the formal design of cyber-physical systems, and I am interested in the intersection of formal methods, machine learning, and control theory."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Prof. Name
+          imageTitle: Alex Donzé
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+#            - name: Papers
+#              url: papers/
+#            - name: Courses
+#              url: courses/
+#            - name: Software
+#              url: data/
+#            - name: Tags
+#              url: tags/
     socialIcons:
-        - name: CV
-          url: cv.pdf
+#        - name: CV
+#          url: cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:alex@decyphir.com
+#        - name: Location
+#          url: location/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
+          url: https://scholar.google.com/citations?user=RVZOGsIAAAAJ&hl=en
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: Twitter
-          url: https://twitter.com/pmichaillat
-
+          url: https://github.com/adonze
+        
     assets:
         disableHLJS: true
         disableScrollBarStyle: true
@@ -96,7 +77,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Alexandre Donzé"
       icon: favicon.ico
       iconHeight: 18
 
