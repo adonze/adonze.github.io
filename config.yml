@@ -69,6 +69,9 @@ params:
           url: https://scholar.google.com/citations?user=RVZOGsIAAAAJ&hl=en
         - name: GitHub
           url: https://github.com/adonze
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/alexandre-donz%C3%A9-0218237/
+
         
     assets:
         disableHLJS: true
