@@ -11,21 +11,21 @@ taxonomies:
 
 menu:
     main:
-        - name: Publications
-          url: papers/
-          weight: 1
+#        - name: Publications
+#          url: papers/
+#          weight: 1
         - name: Software
-          url: data/
-          weight: 2 
+          url: software/
+          weight: 1 
 
 params:
     description: "I am a researcher made (sort of) entrepreneur at Decyphir SAS."
-    author: Alexandre Donzé
+    #author: Alexandre Donzé
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: dark
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -44,7 +44,7 @@ params:
     profileMode:
           enabled: true
           title: Alexandre Donzé, PhD
-          subtitle: "I am a researcher made (sort of) entrepreneur at [Decyphir SAS](https://decyphir.com). I study the formal design of cyber-physical systems, and I am interested in the intersection of formal methods, machine learning, and control theory."
+          subtitle: "I am a researcher made (sort of) entrepreneur at [Decyphir SAS](https://decyphir.com). I study the formal design of cyber-physical systems (CPS), and I am interested in the intersection of formal methods, machine learning, and control theory."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -54,8 +54,8 @@ params:
 #              url: papers/
 #            - name: Courses
 #              url: courses/
-#            - name: Software
-#              url: data/
+             - name: Software
+               url: software/
 #            - name: Tags
 #              url: tags/
     socialIcons:
@@ -81,8 +81,8 @@ params:
         hiddenInSingle: true
     label:
       text: "Alexandre Donzé"
-      icon: favicon.ico
-      iconHeight: 18
+      #icon: favicon.ico
+      #iconHeight: 18
 
 markup:
     goldmark:
